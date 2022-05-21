@@ -27,14 +27,32 @@ const Navbar = () => {
       </nav>
       {!showNav ? null : (
         <div className="nav-item-container">
-          <Link className="nav-items" to="/">
+          <Link
+            className="nav-items"
+            to="/"
+            onClick={() => {
+              setShowNav(false);
+            }}
+          >
             Home
           </Link>
 
-          <Link className="nav-items" to="/Ben">
+          <Link
+            className="nav-items"
+            to="/Ben"
+            onClick={() => {
+              setShowNav(false);
+            }}
+          >
             Ben
           </Link>
-          <Link className="nav-items" to="/Rhys">
+          <Link
+            className="nav-items"
+            to="/Rhys"
+            onClick={() => {
+              setShowNav(false);
+            }}
+          >
             Rhys
           </Link>
         </div>

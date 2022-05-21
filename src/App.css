@@ -1,6 +1,8 @@
 * {
   font-size: 1rem;
   width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 
 /* Imports*/
@@ -11,14 +13,16 @@
 /* NAVBAR STYLE*/
 nav {
   display: flex;
-  width: 100%;
+  width: 5%;
   height: 50px;
   align-items: center;
   justify-content: flex-start;
-  border: solid 2px pink;
+
+  z-index: 50;
+  position: fixed;
 }
 .hamburger {
-  width: 3%;
+  width: 100%;
   height: 70%;
 }
 .hamburger:hover {
@@ -46,9 +50,4 @@ nav {
 }
 .nav-items:hover {
   font-size: 1.7rem;
-}
-/* bens page style */
-.ben-container {
-  width: 100vw;
-  height: 100vh;
 }

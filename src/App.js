@@ -1,4 +1,6 @@
+import React from "react";
 import "./App.css";
+import "./pages/BensPage.css";
 import Navbar from "./components/navbar";
 
 function App() {
